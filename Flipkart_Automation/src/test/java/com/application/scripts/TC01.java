@@ -21,7 +21,7 @@ public class TC01 extends CommonPage
 	{
 		String txtSearchTerm = reader.getCellData("Sheet1", "SearchTerm", 2);
 		String txtCategory = reader.getCellData("Sheet1", "Category", 2);
-		waitForVisibilityOfElement(txtSearch, "Search Textbox"); //Wait for Search textbox
+		waitForVisibilityOfElement(txtSearch, "Search Textbox"); //Wait for Search Textbox
 		
 		//Enter text in Search text box
 		type(txtSearch, txtSearchTerm, "Product Search Textbox");
