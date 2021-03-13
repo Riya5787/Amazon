@@ -4,7 +4,6 @@
 	<test name="Test">
 		<classes>
 			<class name="com.application.scripts.TC01" />
-			<class name="com.application.scripts.TC02" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
