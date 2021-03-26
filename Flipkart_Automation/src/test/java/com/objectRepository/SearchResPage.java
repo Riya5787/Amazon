@@ -12,6 +12,7 @@ public class SearchResPage extends ActionEngine{
 	public By imgSearchedProduct = By.xpath("//img[@class='_2r_T1I']");
 	public By strHeading = By.className("_2yAnYN");
 	public By filters = By.xpath("//div[@class='_3ywJNQ']/child::*");
+	public static By lnkHome = By.linkText("Home");
 
 	
 	
